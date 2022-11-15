@@ -6,6 +6,11 @@
 
 /*** 01. Funktionalität mit Einzelparametern */
 // --> "Ich bin Max Mütze."
+output(getSentence())
+function getSentence(params) {
+    return "Ich bin Max Mütze."
+}
+
 
 
 // Modul: Ausgabe in Konsole : Test
