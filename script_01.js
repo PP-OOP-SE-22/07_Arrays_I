@@ -34,19 +34,24 @@
 
 /* for-Schleifen als allg. Wiederholungs-Struktur */
 
-// for (let i = 0; i < 100; i++) // Inkrement
+// for (let i = 0; i < 10; i++) // Inkrement
 // {
 //     output("index i:" + i);
 // }
 
 // Dekrement
 
-for (let i = 10; i < 0; i--)
+// for (let i = 10; i < 0; i--)
+// {
+//     output("index i:" + i);
+// }
+
+/****** 02b. for-Schleife für Arry-Index (Iteration)***/
+let arr = ["ich","bin","die","coole","Maxine","Mützerich"];
+for (let i = 0; i < arr.length; i++)
 {
-    output("index i:" + i);
+    output(arr[i]);
 }
-
-
 
 
 /*** 01. Funktionalität mit Einzelparametern */
