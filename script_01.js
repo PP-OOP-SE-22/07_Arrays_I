@@ -73,12 +73,30 @@ function getSentence(word1,word2,word3,word4,word5,word6) {
     return str;
 }
 
-/******** 01a Funktionalität mit Arry 1 *****************/
+/******** 01a Funktionalität mit Array 1 *****************/
 // kritik | Überlegung
 // word1,word2, .....wordN :: Semantische Struktur
 // arr[0],arr[1], ... arr[N] :: Numrische Struktur (0,1,2,3,...N)
 
+/******* 01b Funktionalität mit Array 2 *****/
 
+function getSentenceArr(arr) {
+
+    const gab = " ";
+    const dot = ".";
+      let str =  arr[0] + gab +
+                 arr[1] + gab +
+                 arr[2] + gab +
+                 arr[3] + gab +
+                 arr[4] + gab +
+                 arr[5] + dot;
+    
+    return str;
+}
+for (let i = 0; i < arr.length; i++)
+{
+    output(arr[i]);
+}
 // output(getSentenceArr(["ich","bin","die","coole","Maxine","Mützerich"]));
 function getSentenceArr(arr) {
 
