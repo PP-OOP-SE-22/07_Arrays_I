@@ -8,7 +8,7 @@
 // --> "Ich bin Max Mütze."
 output(getSentence("ich","bin","der","coole","Max","Mütze"));
 output(getSentence("ich","bin","die","coole","Maxine","Mützerich"));
-
+// more of the same
 function getSentence(word1,word2,word3,word4,word5,word6) {
 
     const gab = " ";
