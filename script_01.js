@@ -18,7 +18,16 @@ output(arr);
 output(arr.length)  // Anzahl der Elemente
 output(arr[0]);  // Index 0 (1. Pos. im Array)
 output(arr[3]); // konkret
-output(arr[arr.length-1]); // allgemein
+output(arr[arr.length-1]); // letzte Pos. / allgemein
+
+
+/*************************************************/
+
+            // () --> Parameter, Tests
+            // {} --> Codeblöcke
+            // [] --> Arrays, Index
+
+/*************************************************/
 
 
 /*** 01. Funktionalität mit Einzelparametern */
